@@ -62,7 +62,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: "chore: Set version to ${{ steps.version.outputs.version }}"
-          file_pattern: 'pom.xml docs/openapi.json docs/openapi.yaml'
+          file_pattern: 'pom.xml'
 
       - name: Create GitHub release
         uses: softprops/action-gh-release@v2
