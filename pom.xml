@@ -32,6 +32,25 @@
         <keycloakVersion>20.0.3</keycloakVersion>
     </properties>
 
+    <scm>
+        <url>https://github.com/levonti/Keycloak-Mattermost-Auto-Generate-Id</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Leo Che</name>
+            <email>leo@badbox.net</email>
+        </developer>
+    </developers>
+
+	<distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/levonti/Keycloak-Mattermost-Auto-Generate-Id</url>
+        </repository>
+    </distributionManagement>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
